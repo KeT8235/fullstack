@@ -1,7 +1,14 @@
-./gradlew.bat build 
-./gradlew.bat bootRun 
+./gradlew.bat build <br>
 
-cd frontend
-npm install
-npm run build
-npm run dev
+./gradlew.bat bootRun <br>
+
+
+cd frontend <br>
+
+npm install <br>
+
+npm run build <br>
+
+npm run dev <br>
+
+ddd

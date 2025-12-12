@@ -23,8 +23,7 @@ public class User {
 
     @Column(nullable = false)
     private String nickname;
-
-    // 3. Enum 타입 매핑 설정
+    
     @Enumerated(EnumType.STRING)
     private UserRole role;
 }

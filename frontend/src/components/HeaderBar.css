@@ -1,0 +1,82 @@
+.header-bar {
+  width: 100%;
+  height: 64px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+  z-index: 101;
+}
+.header-bar__search {
+  flex: 1;
+}
+.header-bar__search-input {
+  width: 320px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+.header-bar__right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header-bar__user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+.header-bar__avatar {
+  font-size: 1.5rem;
+  background: #eee;
+  border-radius: 50%;
+  padding: 6px;
+}
+.header-bar__task-btn {
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.header-bar__logout-btn {
+  background: #eee;
+  color: #222;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.header-bar__auth-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-weight: 500;
+  color: #222;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.header-bar__auth-btn:hover {
+  background: #f5f5f5;
+  border-color: #ccc;
+}
+.header-bar__auth-btn--primary {
+  border: none;
+  background: #2563eb;
+  color: #fff;
+}
+.header-bar__auth-btn--primary:hover {
+  background: #1e4dd8;
+}
